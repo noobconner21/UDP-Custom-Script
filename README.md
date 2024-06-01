@@ -32,7 +32,7 @@ The "UDP Custom Manager" script enables UDP on a 64-bit VPS, provides functional
 
 ## Credit
 
-This UDP Custom Manager script is made by Project SSLAB LK Dev.Team.  
+This UDP Custom Manager script is made by Project SSLAB LK.
 UDP Custom By ePro Dev. Team.
 
 ## Contact Us
