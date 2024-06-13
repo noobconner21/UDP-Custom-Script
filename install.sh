@@ -4,6 +4,7 @@ apt upgrade -y
 apt install lolcat -y
 apt install figlet -y
 apt install neofetch -y
+apt install screenfetch -y
 cd
 rm -rf /root/udp
 mkdir -p /root/udp
@@ -11,16 +12,19 @@ mkdir -p /root/udp
 # banner
 clear
 
-echo -e "          ░█▀▀▀█ ░█▀▀▀█ ░█─── ─█▀▀█ ░█▀▀█ 　 ░█─░█ ░█▀▀▄ ░█▀▀█ " | lolcat
-echo -e "          ─▀▀▀▄▄ ─▀▀▀▄▄ ░█─── ░█▄▄█ ░█▀▀▄ 　 ░█─░█ ░█─░█ ░█▄▄█ " | lolcat
-echo -e "          ░█▄▄▄█ ░█▄▄▄█ ░█▄▄█ ░█─░█ ░█▄▄█ 　 ─▀▄▄▀ ░█▄▄▀ ░█─── " | lolcat
+echo -e "          ░█▀▀▀█ ░█▀▀▀█ ░█─── ─█▀▀█ ░█▀▀█   ░█─░█ ░█▀▀▄ ░█▀▀█ " | lolcat
+echo -e "          ─▀▀▀▄▄ ─▀▀▀▄▄ ░█─── ░█▄▄█ ░█▀▀▄   ░█─░█ ░█─░█ ░█▄▄█ " | lolcat
+echo -e "          ░█▄▄▄█ ░█▄▄▄█ ░█▄▄█ ░█─░█ ░█▄▄█   ─▀▄▄▀ ░█▄▄▀ ░█─── " | lolcat
 echo ""
 echo ""
 echo ""
 sleep 5
-# change to time GMT+7
-echo "change to time GMT+7"
-ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+# change to time GMT+5:30
+
+echo "change to time GMT+5:30 Sri Lanka"
+ln -fs /usr/share/zoneinfo/Asia/Colombo /etc/localtime
+
+
 
 # install udp-custom
 echo downloading udp-custom
